@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Wolf Sistemas</title>
-    <meta name="description" content="Crio sites, sistemas ERP simples e soluções de pagamento para o seu negócio. Tecnologia sem complicação.">
+    <title>Wolf Sistemas | Sites, ERP e sistemas prontos</title>
+    <meta name="description" content="Sites, sistemas sob medida e produtos prontos: Névoa ERP, MDF Atelier e Sistema Videira. Tecnologia sem complicação.">
     <meta name="author" content="Maicon Vinicius">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -419,6 +419,128 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        .section-lead {
+            text-align: center;
+            color: #b9c7dd;
+            max-width: 640px;
+            margin: -1.5rem auto 3rem;
+            font-size: 1.05rem;
+        }
+
+        .product-card {
+            background: rgba(18,24,36,0.5);
+            backdrop-filter: blur(12px);
+            border: 1px solid #2d3748;
+            border-radius: 1.8rem;
+            padding: 2rem;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-card:hover {
+            border-color: #3b82f6;
+            transform: translateY(-8px);
+            background: rgba(20,30,50,0.7);
+        }
+
+        .product-tag {
+            display: inline-block;
+            background: rgba(59,130,246,0.18);
+            color: #93c5fd;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            padding: 0.28rem 0.8rem;
+            border-radius: 2rem;
+            margin-bottom: 1rem;
+            width: fit-content;
+        }
+
+        .product-card h3 {
+            font-size: 1.35rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .product-desc {
+            color: #b9c7dd;
+            font-size: 0.95rem;
+            line-height: 1.55;
+            margin-bottom: 1.2rem;
+        }
+
+        .product-features {
+            list-style: none;
+            margin-bottom: 1.4rem;
+            padding: 0;
+        }
+
+        .product-features li {
+            color: #cbd5e1;
+            font-size: 0.88rem;
+            padding: 0.32rem 0;
+            display: flex;
+            gap: 8px;
+            align-items: flex-start;
+        }
+
+        .product-features li i {
+            color: #60a5fa;
+            margin-top: 0.2rem;
+            font-size: 0.8rem;
+        }
+
+        .product-prices {
+            background: rgba(15,23,42,0.55);
+            border: 1px solid #2d3748;
+            border-radius: 1.2rem;
+            padding: 0.9rem 1rem;
+            margin-bottom: 1.4rem;
+        }
+
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 0.8rem;
+            padding: 0.38rem 0;
+            font-size: 0.86rem;
+        }
+
+        .price-row + .price-row {
+            border-top: 1px solid rgba(45,55,72,0.7);
+        }
+
+        .price-name {
+            color: #94a3b8;
+        }
+
+        .price-value {
+            color: #e2e8f0;
+            font-weight: 700;
+            text-align: right;
+        }
+
+        .price-value small {
+            display: block;
+            font-weight: 500;
+            color: #c084fc;
+            font-size: 0.72rem;
+        }
+
+        .product-card .btn-primary {
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .price-note {
+            margin-top: 0.6rem;
+            font-size: 0.72rem;
+            color: #94a3b8;
+            line-height: 1.4;
+        }
     </style>
 </head>
 <body>
@@ -434,6 +556,7 @@
         </div>
         <div class="nav-links">
             <a href="#inicio">Início</a>
+            <a href="#produtos">Produtos</a>
             <a href="#servicos">Serviços</a>
             <a href="#contato">Contato</a>
             <!--<a href="https://wa.me/5564984395432" class="btn-whats" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>-->
@@ -449,7 +572,7 @@
                 Você foca no seu negócio, nós cuidamos da tecnologia.
             </p>
             <div class="cta-group">
-                <a href="#contato" class="btn-primary"><i class="fas fa-comment"></i> Contato</a>
+                <a href="#produtos" class="btn-primary"><i class="fas fa-box-open"></i> Ver produtos</a>
                 <a href="#servicos" class="btn-outline-light"><i class="fas fa-info-circle"></i> Entenda melhor</a>
             </div>
         </div>
@@ -492,6 +615,85 @@
                 <h3>Não precisa de nada disso ?</h3>
                 <p><br>Como podemos usar a tecnologia pra resolver aquela tarefa chata ? Chama no Whatsapp, juntos escolheremos a melhor solução pra cada situação, utilizando só o necessário.</p>
             </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="section">
+        <h2 class="section-title"><i class="fas fa-cubes" style="color:#60a5fa;"></i> <span style="background:linear-gradient(135deg,#fff,#60a5fa);-webkit-background-clip:text;background-clip:text;color:transparent;">Sistemas prontos para usar</span></h2>
+        <p class="section-lead">Além dos projetos sob medida, estes sistemas já estão no ar. Escolha o que se encaixa no seu negócio e abra a página do produto.</p>
+        <div class="grid-3">
+            <article class="product-card fade-up">
+                <span class="product-tag">Marcenaria</span>
+                <div class="service-icon"><i class="fas fa-cut"></i></div>
+                <h3>MDF Atelier</h3>
+                <p class="product-desc">Do móvel planejado ao plano de corte e ao orçamento fechado. Catálogo paramétrico, nesting e PDF com a sua marca.</p>
+                <ul class="product-features">
+                    <li><i class="fas fa-check"></i> 52 móveis prontos, medidas e fita por peça</li>
+                    <li><i class="fas fa-check"></i> 5 modos de corte, inclusive ajuste manual</li>
+                    <li><i class="fas fa-check"></i> Custo, margem e orçamento em PDF</li>
+                    <li><i class="fas fa-check"></i> Backup na nuvem e uso no celular</li>
+                </ul>
+                <div class="product-prices">
+                    <div class="price-row">
+                        <span class="price-name">Grátis</span>
+                        <span class="price-value">R$ 0<span style="font-weight:500;color:#94a3b8;">/mês</span><small>até 3 orçamentos</small></span>
+                    </div>
+                    <div class="price-row">
+                        <span class="price-name">Pro</span>
+                        <span class="price-value">R$ 49<span style="font-weight:500;color:#94a3b8;">/mês</span><small>ilimitado + logo da marcenaria</small></span>
+                    </div>
+                    <p class="price-note">Avulso: 1 mês R$ 49 ou 3 meses R$ 129, no Pix ou cartão.</p>
+                </div>
+                <a href="https://wolfsaas.com.br/mdf/" class="btn-primary" target="_blank" rel="noopener">Conhecer o MDF Atelier</a>
+            </article>
+
+            <article class="product-card fade-up">
+                <span class="product-tag">ERP para PME</span>
+                <div class="service-icon"><i class="fas fa-cloud"></i></div>
+                <h3>Névoa</h3>
+                <p class="product-desc">Toda a gestão do negócio, leve como uma nuvem. Vendas, estoque, financeiro, clientes, orçamentos e equipe num só lugar.</p>
+                <ul class="product-features">
+                    <li><i class="fas fa-check"></i> PDV, estoque, financeiro e clientes</li>
+                    <li><i class="fas fa-check"></i> Orçamentos em PDF e multiempresa</li>
+                    <li><i class="fas fa-check"></i> Expedição, RH e relatórios nos planos maiores</li>
+                    <li><i class="fas fa-check"></i> Add-on de marcenaria/MDF no Enterprise</li>
+                </ul>
+                <div class="product-prices">
+                    <div class="price-row">
+                        <span class="price-name">Essencial</span>
+                        <span class="price-value">R$ 49<span style="font-weight:500;color:#94a3b8;">/mês</span><small>ou R$ 490/ano</small></span>
+                    </div>
+                    <div class="price-row">
+                        <span class="price-name">Profissional</span>
+                        <span class="price-value">R$ 389,90<span style="font-weight:500;color:#94a3b8;">/mês</span><small>promo novo CNPJ: R$ 129,90 nos 3 primeiros meses</small></span>
+                    </div>
+                    <div class="price-row">
+                        <span class="price-name">Enterprise</span>
+                        <span class="price-value">R$ 447<span style="font-weight:500;color:#94a3b8;">/mês</span><small>ou R$ 4.470/ano · usuários ilimitados</small></span>
+                    </div>
+                </div>
+                <a href="https://wolfsaas.com.br/nevoaerp/landing.html" class="btn-primary" target="_blank" rel="noopener">Conhecer o Névoa</a>
+            </article>
+
+            <article class="product-card fade-up">
+                <span class="product-tag">Igrejas em células</span>
+                <div class="service-icon"><i class="fas fa-church"></i></div>
+                <h3>Sistema Videira</h3>
+                <p class="product-desc">Controle de membros, células, líderes e discipulado. Solução sob demanda para igrejas que trabalham em células, no modelo Videira.</p>
+                <ul class="product-features">
+                    <li><i class="fas fa-check"></i> Membros, células, líderes e pastores</li>
+                    <li><i class="fas fa-check"></i> Relatórios de presença e faltosos</li>
+                    <li><i class="fas fa-check"></i> Agenda, eventos e inscrições</li>
+                    <li><i class="fas fa-check"></i> Financeiro, papéis e acompanhamento pastoral</li>
+                </ul>
+                <div class="product-prices">
+                    <div class="price-row">
+                        <span class="price-name">Implantação</span>
+                        <span class="price-value">Sob consulta<small>adaptamos para a sua igreja</small></span>
+                    </div>
+                </div>
+                <a href="https://wolfsaas.com.br/sistemavideira/" class="btn-primary" target="_blank" rel="noopener">Ver o Sistema Videira</a>
+            </article>
         </div>
     </section>
 
