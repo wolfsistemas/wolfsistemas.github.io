@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Wolf Sistemas | Sites, ERP e sistemas prontos</title>
-    <meta name="description" content="Sites, sistemas sob medida e produtos prontos: Névoa ERP, MDF Atelier, Sistema Videira e PontoFlow. Tecnologia sem complicação.">
+    <meta name="description" content="Sites, sistemas sob medida e produtos prontos: Névoa ERP, MDF Atelier e Sistema Videira. Tecnologia sem complicação.">
     <meta name="author" content="Maicon Vinicius">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -729,35 +729,6 @@
                     </div>
                 </div>
                 <a href="https://wolfsaas.com.br/sistemavideira/landing" class="btn-primary" target="_blank" rel="noopener">Ver o Sistema Videira</a>
-            </article>
-
-            <article class="product-card fade-up">
-                <span class="product-tag">Ponto e folha</span>
-                <div class="service-icon"><i class="fas fa-clock"></i></div>
-                <h3>PontoFlow</h3>
-                <p class="product-desc">Ponto, folha de pagamento e pagamentos em um só lugar. Registro pelo celular, aprovação do gestor e encargos CLT calculados automaticamente, para qualquer empresa.</p>
-                <ul class="product-features">
-                    <li><i class="fas fa-check"></i> Ponto no celular com geolocalização opcional</li>
-                    <li><i class="fas fa-check"></i> Folha CLT: INSS, IRRF, FGTS, 13º e férias</li>
-                    <li><i class="fas fa-check"></i> Diárias, produção, terceiros e empreita</li>
-                    <li><i class="fas fa-check"></i> Aprovação, relatórios e recibos de pagamento</li>
-                </ul>
-                <div class="product-prices">
-                    <div class="price-row">
-                        <span class="price-name">Essencial</span>
-                        <span class="price-value">R$ 149<span style="font-weight:500;color:#94a3b8;">/mês</span><small>até 10 colaboradores</small></span>
-                    </div>
-                    <div class="price-row">
-                        <span class="price-name">Profissional</span>
-                        <span class="price-value">R$ 349<span style="font-weight:500;color:#94a3b8;">/mês</span><small>até 50 colaboradores + locais ilimitados</small></span>
-                    </div>
-                    <div class="price-row">
-                        <span class="price-name">Corporativo</span>
-                        <span class="price-value">R$ 799<span style="font-weight:500;color:#94a3b8;">/mês</span><small>multiempresa e usuários ilimitados</small></span>
-                    </div>
-                    <p class="price-note">14 dias grátis, sem cartão de crédito.</p>
-                </div>
-                <a href="https://wolfsaas.com.br/nevoaponto/" class="btn-primary" target="_blank" rel="noopener">Conhecer o PontoFlow</a>
             </article>
         </div>
     </section>
